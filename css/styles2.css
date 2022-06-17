@@ -1,0 +1,8 @@
+@charset "utf-8";
+.abouttext {
+	font-family: cursive;
+	font-size: 20px;
+	border: none;
+	padding: auto;
+	margin: auto;
+}

@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+.abouttext {
+	font-family: cursive;
+	font-size: 20px;
+	border: none;
+	padding: auto;
+	margin: auto;
+}
+
+.container-fluid {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(233,231,231,1.00) 30.05%,rgba(233,226,226,1.00) 66.32%,rgba(0,0,0,1.00) 99.48%,rgba(7,7,7,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(233,231,231,1.00) 30.05%,rgba(233,226,226,1.00) 66.32%,rgba(0,0,0,1.00) 99.48%,rgba(7,7,7,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(233,231,231,1.00) 30.05%,rgba(233,226,226,1.00) 66.32%,rgba(0,0,0,1.00) 99.48%,rgba(7,7,7,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(233,231,231,1.00) 30.05%,rgba(233,226,226,1.00) 66.32%,rgba(0,0,0,1.00) 99.48%,rgba(7,7,7,1.00) 100%);
+}
+.container #carouselExampleIndicators1 .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(118,114,114,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(118,114,114,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(118,114,114,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(118,114,114,1.00) 100%);
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: #F5ED0F;
+}
+.card.col-md-4.col-lg-12 .card-body .btn.btn-primary {
+    background-color: #070707;
+    color: #EDC90B;
+}
+#accordion1 .card #headingOne1 {
+    background-color: #030303;
+}
+#accordion1 .card #headingTwo1 {
+    background-color: #070707;
+}
+#accordion1 .card #headingThree1 {
+    background-color: #010101;
+}
+#headingOne1 .mb-0 a {
+    color: #E99D0C;
+}
+#headingTwo1 .mb-0 .collapsed {
+    color: #E99D0C;
+}
+#headingThree1 .mb-0 .collapsed {
+    color: #E99D0C;
+}
+.container-fluid .container footer {
+    color: #FFFFFF;
+}
+#carouselExampleIndicators1 .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler {
+    background-color: #DFDFDF;
+}
+
+
+
+
+
+.container {
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  padding:25px;
+  margin:50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:20%;
+  border:none;
+  background:#0CF;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#09C;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+
+
+
+
+
+
+.Pcontainer{
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.Pcontainer form{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+}
+
+.Pcontainer form .inputBox{
+    margin-top: 20px;
+}
+
+.Pcontainer form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+}
+
+.Pcontainer form .inputBox input,
+.Pcontainer form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+
+.Pcontainer form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+.Pcontainer form .flexbox .inputBox{
+    flex:1 1 150px;
+}
+
+.Pcontainer form .submit-btn{
+    width: 100%;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.Pcontainer form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.Pcontainer .card-container{
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.Pcontainer .card-container .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+.Pcontainer .card-container .front .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.Pcontainer .card-container .front .image img{
+    height: 50px;
+}
+
+.Pcontainer .card-container .front .card-number-box{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+}
+
+.Pcontainer .card-container .front .flexbox{
+    display: flex;
+}
+
+.Pcontainer .card-container .front .flexbox .box:nth-child(1){
+    margin-right: auto;
+}
+
+.Pcontainer .card-container .front .flexbox .box{
+    font-size: 15px;
+    color:#fff;
+}
+
+.Pcontainer .card-container .back{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+}
+
+.Pcontainer .card-container .back .stripe{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.Pcontainer .card-container .back .box{
+    padding: 0 20px;
+}
+
+.Pcontainer .card-container .back .box span{
+    color:#fff;
+    font-size: 15px;
+}
+
+.Pcontainer .card-container .back .box .cvv-box{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Pcontainer .card-container .back .box img{
+    margin-top: 30px;
+    height: 30px;
+}
+
